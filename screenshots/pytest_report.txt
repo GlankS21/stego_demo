@@ -1,0 +1,49 @@
+============================= test session starts =============================
+platform win32 -- Python 3.11.1, pytest-9.2.0, pluggy-1.7.0 -- C:\Users\asgat\OneDrive\Máy tính\WorkSpace\ITMO - Thsi\Vu\stego_demo\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\asgat\OneDrive\Máy tính\WorkSpace\ITMO - Thsi\Vu\stego_demo
+plugins: anyio-4.16.0
+collecting ... collected 40 items
+
+tests/test_app.py::test_app_show_all_steps_no_exception PASSED           [  2%]
+tests/test_app.py::test_app_capacity_error_shown PASSED                  [  5%]
+tests/test_embed.py::test_roundtrip_disk_messages[tieng_viet] PASSED     [  7%]
+tests/test_embed.py::test_roundtrip_disk_messages[emoji] PASSED          [ 10%]
+tests/test_embed.py::test_roundtrip_disk_messages[rong] PASSED           [ 12%]
+tests/test_embed.py::test_roundtrip_disk_messages[mot_ky_tu] PASSED      [ 15%]
+tests/test_embed.py::test_roundtrip_h_and_costs[HILL-7] PASSED           [ 17%]
+tests/test_embed.py::test_roundtrip_h_and_costs[HILL-8] PASSED           [ 20%]
+tests/test_embed.py::test_roundtrip_h_and_costs[HILL-9] PASSED           [ 22%]
+tests/test_embed.py::test_roundtrip_h_and_costs[HILL-10] PASSED          [ 25%]
+tests/test_embed.py::test_roundtrip_h_and_costs[WOW-like-7] PASSED       [ 27%]
+tests/test_embed.py::test_roundtrip_h_and_costs[WOW-like-8] PASSED       [ 30%]
+tests/test_embed.py::test_roundtrip_h_and_costs[WOW-like-9] PASSED       [ 32%]
+tests/test_embed.py::test_roundtrip_h_and_costs[WOW-like-10] PASSED      [ 35%]
+tests/test_embed.py::test_roundtrip_h_and_costs[\u0110\u1ed3ng \u0111\u1ec1u-7] PASSED [ 37%]
+tests/test_embed.py::test_roundtrip_h_and_costs[\u0110\u1ed3ng \u0111\u1ec1u-8] PASSED [ 40%]
+tests/test_embed.py::test_roundtrip_h_and_costs[\u0110\u1ed3ng \u0111\u1ec1u-9] PASSED [ 42%]
+tests/test_embed.py::test_roundtrip_h_and_costs[\u0110\u1ed3ng \u0111\u1ec1u-10] PASSED [ 45%]
+tests/test_embed.py::test_roundtrip_near_capacity PASSED                 [ 47%]
+tests/test_embed.py::test_change_table_matches_disk_file PASSED          [ 50%]
+tests/test_embed.py::test_stc_cost_not_more_than_sequential_lsb PASSED   [ 52%]
+tests/test_embed.py::test_cheap_pixels_change_more[HILL] PASSED          [ 55%]
+tests/test_embed.py::test_cheap_pixels_change_more[WOW-like] PASSED      [ 57%]
+tests/test_embed.py::test_wrong_key_fails_safely PASSED                  [ 60%]
+tests/test_embed.py::test_jpeg_fails_safely PASSED                       [ 62%]
+tests/test_embed.py::test_one_pixel_modified_detected PASSED             [ 65%]
+tests/test_embed.py::test_garbage_inputs_do_not_crash PASSED             [ 67%]
+tests/test_embed.py::test_capacity_exceeded_raises_before_embedding PASSED [ 70%]
+tests/test_stc.py::test_syndrome_equals_message_many_random[1] PASSED    [ 72%]
+tests/test_stc.py::test_syndrome_equals_message_many_random[2] PASSED    [ 75%]
+tests/test_stc.py::test_syndrome_equals_message_many_random[3] PASSED    [ 77%]
+tests/test_stc.py::test_syndrome_equals_message_many_random[5] PASSED    [ 80%]
+tests/test_stc.py::test_syndrome_equals_message_many_random[7] PASSED    [ 82%]
+tests/test_stc.py::test_syndrome_equals_message_many_random[8] PASSED    [ 85%]
+tests/test_stc.py::test_syndrome_equals_message_many_random[9] PASSED    [ 87%]
+tests/test_stc.py::test_syndrome_equals_message_many_random[10] PASSED   [ 90%]
+tests/test_stc.py::test_stc_is_optimal_vs_bruteforce PASSED              [ 92%]
+tests/test_stc.py::test_trace_matches_fast_viterbi PASSED                [ 95%]
+tests/test_stc.py::test_empty_message_changes_nothing PASSED             [ 97%]
+tests/test_stc.py::test_too_many_bits_rejected PASSED                    [100%]
+
+============================= 40 passed in 24.58s =============================

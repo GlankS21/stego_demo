@@ -1,0 +1,20 @@
+# Môi trường ảo / cache Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Biến môi trường cục bộ (không commit; dùng .env.example làm mẫu)
+.env
+
+# Đầu ra sinh ra khi chạy app
+output/
+
+# IDE / hệ điều hành
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
