@@ -34,6 +34,7 @@ Chạy kiểm thử: `python -m pytest -v`. Báo cáo lần chạy gần nhất:
 | `viz/plots.py` | Heatmap, overlay, trellis, bản đồ thay đổi, histogram, zoom 16×16 |
 | `tests/` | pytest (STC, round-trip qua đĩa, các trường hợp âm, smoke test giao diện) |
 | `screenshots/` | Ảnh chụp chứng minh NT1–NT4 (tạo bằng `tools/capture_screenshots.py`) |
+| `docs/bao_cao_thuat_toan.md` | Báo cáo mô tả thuật toán cho luận văn (công thức, giả mã, kết quả thực nghiệm) |
 
 ## Thiết kế chính
 
